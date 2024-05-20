@@ -39,15 +39,25 @@ header {
 /* img */
 
 .me {
-  background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
-  height: 30rem;
+ display: flex;
+ justify-content: center;
+ background: #333;
+ margin-bottom: 100px;
+ padding: 200px 0;
+ position: relative;
+ overflow: hidden;
+ min-height: 100vh;
+}
+
+/* video */
+
+video{
   position: absolute;
-  left: calc(50% - 11rem);
-  margin-top: 4rem;
-  border-radius: 12rem 12rem 0 0;
-  overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  align-content: center;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 /* scroll down*/

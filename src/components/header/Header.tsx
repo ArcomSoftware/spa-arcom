@@ -1,4 +1,3 @@
-import React from 'react';
 import CTA from './CTA';
 import HeaderSocials from './HeaderSocials';
 import './header.css';
@@ -15,7 +14,9 @@ const Header = () => {
         <CTA />
         <HeaderSocials />
         <div className="me">
-          <img src={'probleu.jpeg'} alt="" />
+        <video className='video'autoPlay muted loop>
+          <source src={'logo.mp4'} type='video/mp4' />
+          </video>
         </div>
         <a href="#contact" className="scroll__down Down">
           Scroll Down
