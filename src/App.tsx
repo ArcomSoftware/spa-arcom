@@ -1,5 +1,6 @@
 import { useEffect } from "react"
-import Home from "./pages/home/home"
+import Main from "./pages/Main/main"
+import {Routes, Route } from "react-router-dom"
 
 function App() {
  
@@ -14,7 +15,7 @@ useEffect(()=>{
 
   return (
     <>
-      <Home/>
+      <Main/>
     </>
   )
 }

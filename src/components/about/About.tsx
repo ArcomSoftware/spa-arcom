@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaAward, FaUserTie } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
 import './about.css';
@@ -7,7 +6,7 @@ const About = () => {
   return (
     <section id="about">
       <h5>Get To Know</h5>
-      <h2>A propos de Moi</h2>
+      <h2>A propos de Nous</h2>
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
@@ -19,7 +18,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experiences</h5>
-              <small>2+ ans</small>
+              <small>3+ ans</small>
             </article>
             <article className="about__card">
               <FaUserTie className="about__icon" />

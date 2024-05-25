@@ -2,12 +2,20 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css';
 import App from './App.tsx'
-import { ThemeProvider } from '@mui/material'
+import { HashRouter } from 'react-router-dom';
+import StoreProvider from './components/storeProvider/storeProvider.tsx';
+import store from './store/index.ts';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
+  
+  
   <React.StrictMode>
-    <ThemeProvider theme={''}>
+    <HashRouter>
+  <StoreProvider store={store}>
     <App />
-    </ThemeProvider>
-  </React.StrictMode>,
+    </StoreProvider>
+    </HashRouter>
+  </React.StrictMode>
+ 
+  
 )
