@@ -1,4 +1,3 @@
-import React from 'react';
 import './contact.css';
 import { BsWhatsapp, BsMailbox2, BsFacebook } from 'react-icons/bs';
 

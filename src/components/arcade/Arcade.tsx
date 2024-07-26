@@ -1,22 +1,23 @@
 import  "./arcade.scss";
 
+
 const Arcade = () => {
     return(
         <>
-            <div className="arcade-machine">
-            <div className="arcade-machine-title"></div>
+           <arcade-machine>
+            <arcade-machine-title></arcade-machine-title>
             <label>
                 <arcade-button style="--button-label: 'Start'">
-                <input type="checkbox" id="input"/>
+                <input type="checkbox" id="input">
                 <arcade-button-text></arcade-button-text>
-                <ghost class="clyde"></ghost>
+                <ghost className="clyde"></ghost>
                 <pacman></pacman>
                 <dots></dots>
                 <dots-v></dots-v>
                 <walls></walls>
                 </arcade-button>
             </label>
-            </div>
+            </arcade-machine>
             <div className="ghosts-bar">
             <div className="ghosts">
                 <ghost className="blinky"></ghost>
