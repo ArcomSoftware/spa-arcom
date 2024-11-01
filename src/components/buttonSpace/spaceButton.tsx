@@ -1,8 +1,8 @@
-import './spaceButton.className'
+import './spaceButton.css'
 
-const buttonSpace = () => {
+const ButtonSpace = () => {
  return(
-    <button type="button" className="btn">
+  <button type="button" className="btn">
   <strong>SPACE</strong>
   <div id="container-stars">
     <div id="stars"></div>
@@ -16,4 +16,4 @@ const buttonSpace = () => {
  )
 }
 
-export default buttonSpace
+export default ButtonSpace

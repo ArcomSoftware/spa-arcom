@@ -1,14 +1,10 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
+
 import './footer.css';
 import { BsLinkedin, BsGithub, BsInstagram, BsFacebook } from 'react-icons/bs';
 
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
-        ARCOM
-      </a>
       <ul className="permalinks">
         <li>
           <a href="#">Accueil</a>

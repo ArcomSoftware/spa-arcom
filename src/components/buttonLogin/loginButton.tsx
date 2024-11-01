@@ -1,8 +1,12 @@
 
+import './loginButton.css'
 
+export interface IProps {
+    
+}
 
-const LoginButton = () => {
-    return<button>Button</button>
+const LoginButton = ({label}:{label:string}, {onClick}:{onClick?: () => unknown}) => {
+    return<button onClick={onClick}>{label}</button>
 }
 
 

@@ -1,0 +1,6 @@
+export const TITLE_LOGIN_PAGE = 'LOGIN'
+export const SIGN_UP = 'Sign Up Here!'
+export const ACCOUNT = 'Have an Account? '
+export const LABEL_BUTTON = 'SUBMIT'
+export const PLACEHOLDER_USER = 'UserName......'
+export const PLACEHOLDER_PASSWORD = 'Password.....'
